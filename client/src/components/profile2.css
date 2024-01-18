@@ -1,0 +1,88 @@
+.profil{
+    margin-top:20px;
+    color: #1a202c;
+    text-align: left;
+    background-color: #e2e8f0;    
+}
+.profil .main-body {
+    padding: 15px;
+}
+.profil .card {
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.1), 0 1px 2px 0 rgba(0,0,0,.06);
+}
+
+.profil .card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+
+.profil .card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1rem;
+}
+
+.profil .gutters-sm {
+    margin-right: -8px;
+    margin-left: -8px;
+}
+
+.profil .gutters-sm>.col, .gutters-sm>[class*=col-] {
+    padding-right: 8px;
+    padding-left: 8px;
+}
+.profil .mb-3, .my-3 {
+    margin-bottom: 1rem!important;
+}
+
+.profil .bg-gray-300 {
+    background-color: #e2e8f0;
+}
+.profil .h-100 {
+    height: 100%!important;
+}
+.profil.shadow-none {
+    box-shadow: none!important;
+}
+
+/*Reservation List*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.profil {
+    font-family: 'Open Sans', sans-serif
+}
+
+.profil .search {
+    top: 6px;
+    left: 10px
+}
+
+.profil .form-control {
+    border: none;
+    padding-left: 32px
+}
+
+.profil .form-control:focus {
+    border: none;
+    box-shadow: none
+}
+
+.profil .green {
+    color: green
+}
+
+.box{
+    display: flex;
+    justify-content: space-around;
+}
+
+.profil .container{
+    margin-left: 109px;
+}
